@@ -8,4 +8,3 @@ const DEFAULT_LANGUAGES = [
     { label: "pt-PT", value: "Portugais" },
   ];
 
-  const TEXT_SOURCE_FR = "Texte source";

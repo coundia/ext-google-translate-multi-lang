@@ -13,6 +13,8 @@ window.addEventListener("load", () => {
   buttonContainer.style.borderRadius = "5px";
   buttonContainer.style.boxShadow = "0 2px 5px rgba(0,0,0,0.2)";
 
+  const TEXT_SOURCE_FR = "Texte source";
+
   chrome.storage.sync.get({ languages: [], lastLanguage: 'na' }, (data) => {
     let lastLanguage = data.lastLanguage;
     let languages = data.languages;
