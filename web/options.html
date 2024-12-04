@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Options</title>
+  <link rel="stylesheet" type="text/css" href="css/options.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>Manage language</h1>
+
+      <form id="formId">
+        <label for="label"> Label</label>
+        <input type="text" id="labelId" placeholder="e.g., fr" required />
+
+        <label for="value"> Value</label>
+        <input type="text" id="valueId" placeholder="e.g., French" required />
+
+        <button type="submit">Add Language</button>
+      </form>
+
+      <h2>Existing languages</h2>
+      <ul id="languagesId"></ul>
+      <button type="button" id="options-reset">Reset Options</button>
+    </div>
+
+
+  </div>
+  <script src="js/constantes.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="js/options.js"></script>
+</body>
+
+</html>
