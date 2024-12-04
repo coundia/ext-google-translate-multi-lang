@@ -56,7 +56,7 @@ window.addEventListener("load", () => {
       });
 
       button.addEventListener("mouseleave", () => {
-        copyClipBoard();
+        //copyClipBoard();
       });
 
       buttonContainer.appendChild(button);
